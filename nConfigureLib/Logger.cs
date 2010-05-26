@@ -52,8 +52,7 @@ namespace nConfigureLib
 		}
 		public void Info(string info)
 		{
-            if (WarningLog != null)
-                WarningLog(m_type.FullName, info);			
+			
 		}
 		public void Debug(string debugmessage)
 		{
